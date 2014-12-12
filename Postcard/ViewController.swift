@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = "chao " + enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
-        
+        // test adding additional commit
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
